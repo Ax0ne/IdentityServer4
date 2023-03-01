@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>Duende.IdentityServer.EntityFramework</PackageId>
+        <PackageId>IdentityServer4.EntityFramework</PackageId>
         <TargetFrameworks>net6.0</TargetFrameworks>
         <Description>EntityFramework persistence layer for IdentityServer4</Description>
         <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
@@ -13,7 +13,8 @@
         <PackageReleaseNotes>https://github.com/IdentityServer/IdentityServer4/releases</PackageReleaseNotes>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    </PropertyGroup>
+		<Version>6.0.0</Version>
+	</PropertyGroup>
 
     <ItemGroup>
       <None Include="..\icon.jpg">
